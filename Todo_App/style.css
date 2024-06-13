@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #541868;
+  max-height: 100vh;
+  width: 100%;
+}
+.container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.input-container {
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+.inputBox {
+  border: none;
+  outline: none;
+  padding: 12px;
+  margin-block: 18px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.input-container input {
+  width: 70%;
+}
+.input-container button {
+  background-color: #541868;
+  color: #ffff;
+  font-weight: 700;
+  margin-left: 8px;
+  cursor: pointer;
+  padding: 12px 24px;
+  border-radius: 6px;
+}
+.input-container button:hover {
+  background-color: #63bb63;
+}
+ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+ul li {
+  list-style-type: none;
+  margin: 20px;
+  border-radius: 8px;
+  padding: 6px 12px;
+  background-color: #373636;
+  display: flex;
+  flex-direction: column;
+}
+
+.deleteBtn,.editBtn{
+    align-self: center;
+    width: 150px;
+    height: 30px;
+    background-color: #09b109;
+    color: #ffffff;
+    text-align: center;
+    margin: 6px;
+    cursor: pointer;
+}
+
+span{
+    color: #ffffff;
+}
+.todo,.status{
+  padding: 8px;
+}
