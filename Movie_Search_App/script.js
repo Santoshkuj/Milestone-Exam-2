@@ -3,7 +3,7 @@ const movieContainer = document.querySelector('.Movie-container')
 const inputBox = document.querySelector('.inputBox')
 
 const getMovieInfo = async (movie)=>{
-    const apiKey = 'ef193596';
+    const apiKey = 'your_api_key';
     const url = `http://www.omdbapi.com/?apikey=${apiKey}&s=${movie}`;
     try {
         const response = await fetch(url);
